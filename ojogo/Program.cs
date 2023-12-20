@@ -4,7 +4,7 @@ using OpenTK.Input;
 using System;
 
 
-namespace ojogo
+namespace opong
 {
     internal class Program : GameWindow
     {
@@ -128,11 +128,13 @@ namespace ojogo
             GL.Vertex2(-0.5f * largura + x, 0.5f * altura + y);
             GL.End();
         }
-    
+
         static void Main(string[] args)
         {
-
+            Console.WriteLine("eu fiz isto por causa de um canal do youtube pesquisem o programador no youtube");
             new Program().Run();
+            Console.WriteLine("obrigado por jogarem siiiiiiimmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm");
         }
     }
 }
+
