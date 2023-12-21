@@ -35,7 +35,7 @@ namespace opong
 
         int alturaDosJogadores()
         {
-            return 7 * tamanhoDaBola;
+            return 15 * tamanhoDaBola;
         }
 
         protected override void OnUpdateFrame(FrameEventArgs e)
@@ -50,7 +50,7 @@ namespace opong
 
                 velocidadeDaBolaEmX = -velocidadeDaBolaEmX;
             }
-            if (xDaBola + tamanhoDaBola / 2 < xDoJogador1() + larguraDosJogadores() / 2
+            if (xDaBola - tamanhoDaBola / 2 < xDoJogador1() + larguraDosJogadores() / 2
                 && yDaBola - tamanhoDaBola / 2 < yDoJogador1 + alturaDosJogadores() / 2
                 && yDaBola + tamanhoDaBola / 2 > yDoJogador1 - alturaDosJogadores() / 2)
             {
