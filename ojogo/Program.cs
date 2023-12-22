@@ -133,7 +133,10 @@ namespace opong
         {
             Console.WriteLine("eu fiz isto por causa de um canal do youtube pesquisem o programador no youtube");
             new Program().Run();
-            Console.WriteLine("obrigado por jogarem siiiiiiimmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm");
+            Console.WriteLine("obrigado por jogarem          Ass:GP ");             
+                
+                
+              
         }
     }
 }
