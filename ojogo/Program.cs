@@ -35,7 +35,7 @@ namespace opong
 
         int alturaDosJogadores()
         {
-            return 15 * tamanhoDaBola;
+            return 10 * tamanhoDaBola;
         }
 
         protected override void OnUpdateFrame(FrameEventArgs e)
@@ -78,11 +78,11 @@ namespace opong
                 xDaBola = 0;
                 yDaBola = 0;
             }
-            if (Keyboard.GetState().IsKeyDown(Key.Q))
+            if (Keyboard.GetState().IsKeyDown(Key.Tab))
             {
                 yDoJogador1 = yDoJogador1 + 5;
             }
-            if (Keyboard.GetState().IsKeyDown(Key.A))
+            if (Keyboard.GetState().IsKeyDown(Key.CapsLock))
             {
                 yDoJogador1 = yDoJogador1 - 5;
             }
